@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Spark / Hadoop temp + checkpoints
+spark-warehouse/
+.metastore_db/
+derby.log
+tmp/
+*.crc
+*.parquet/
+*.avro/
+*.orc/
+
+# Data directories (local ingested/processed files)
+data/raw/
+data/processed/
+data/analytics/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Build / Packaging
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Other
+*.bak
+*.tmp
+*.out
