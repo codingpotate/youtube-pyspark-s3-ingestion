@@ -13,7 +13,7 @@ __pycache__/
 env/
 venv/
 ENV/
-
+.env
 # Jupyter / IPython
 .ipynb_checkpoints/
 *.ipynb
